@@ -6,13 +6,14 @@ import Constants from 'expo-constants';
 
 // import Constants from 'expo-contants';
 import Exemplo1 from './src/exemplos/ex_01';
+import Exemplo2 from './src/exemplos/ex_02';
 
 import Atividada1 from './src/atividades/atv_01';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividada1 />
+      <Exemplo2 />
       <StatusBar style="auto" />
     </View>
   );
